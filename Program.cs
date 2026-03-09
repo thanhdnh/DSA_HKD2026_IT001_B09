@@ -32,6 +32,19 @@ public class Graph
         adjMatrix[start, eend] = 1;
         adjMatrix[eend, start] = 1;
     }
+    //Tối ưu code của hàm AddEdge bên dưới để độ phức tạp nhỏ hơn n
+    public void AddEdge(string slabel, string elabel)
+    {
+        int start = -1, eend = -1;
+        for(int i=0; i<vertices.Length; i++)
+        {
+            if(vertices[i].label==slabel)
+                start = i;
+            if(vertices[i].label==elabel)
+                eend = i;
+        }
+        AddEdge(start, eend);
+    }
     public void ShowVertex(int v)
     {
         Console.Write(vertices[v].label + " ");
@@ -105,18 +118,12 @@ public class Program
         graph.AddVertex("I"); graph.AddVertex("J");//8 9
         graph.AddVertex("K"); graph.AddVertex("L");//10  11
         graph.AddVertex("M");//12
-        graph.AddEdge(0, 1);
-        graph.AddEdge(0, 4);
-        graph.AddEdge(0, 7);
-        graph.AddEdge(0, 10);
-        graph.AddEdge(1, 2);
-        graph.AddEdge(2, 3);
-        graph.AddEdge(4, 5);
-        graph.AddEdge(5, 6);
-        graph.AddEdge(7, 8);
-        graph.AddEdge(8, 9);
-        graph.AddEdge(10, 11);
-        graph.AddEdge(11, 12);
+        graph.AddEdge(0, 1);    graph.AddEdge(0, 4);
+        graph.AddEdge(0, 7);    graph.AddEdge(0, 10);
+        graph.AddEdge(1, 2);    graph.AddEdge(2, 3);
+        graph.AddEdge(4, 5);    graph.AddEdge(5, 6);
+        graph.AddEdge(7, 8);    graph.AddEdge(8, 9);
+        graph.AddEdge(10, 11);  graph.AddEdge(11, 12);
         Console.Write("DFS: ");
         graph.DepthFirstSearch();
         Console.Write("\nBFS: ");
