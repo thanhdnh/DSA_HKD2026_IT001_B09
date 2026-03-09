@@ -1,0 +1,14 @@
+/Users/hoangthanh/DSA_HKD_2026_IT001/B09/bin/Debug/net9.0/B09
+/Users/hoangthanh/DSA_HKD_2026_IT001/B09/bin/Debug/net9.0/B09.deps.json
+/Users/hoangthanh/DSA_HKD_2026_IT001/B09/bin/Debug/net9.0/B09.runtimeconfig.json
+/Users/hoangthanh/DSA_HKD_2026_IT001/B09/bin/Debug/net9.0/B09.dll
+/Users/hoangthanh/DSA_HKD_2026_IT001/B09/bin/Debug/net9.0/B09.pdb
+/Users/hoangthanh/DSA_HKD_2026_IT001/B09/obj/Debug/net9.0/B09.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hoangthanh/DSA_HKD_2026_IT001/B09/obj/Debug/net9.0/B09.AssemblyInfoInputs.cache
+/Users/hoangthanh/DSA_HKD_2026_IT001/B09/obj/Debug/net9.0/B09.AssemblyInfo.cs
+/Users/hoangthanh/DSA_HKD_2026_IT001/B09/obj/Debug/net9.0/B09.csproj.CoreCompileInputs.cache
+/Users/hoangthanh/DSA_HKD_2026_IT001/B09/obj/Debug/net9.0/B09.dll
+/Users/hoangthanh/DSA_HKD_2026_IT001/B09/obj/Debug/net9.0/refint/B09.dll
+/Users/hoangthanh/DSA_HKD_2026_IT001/B09/obj/Debug/net9.0/B09.pdb
+/Users/hoangthanh/DSA_HKD_2026_IT001/B09/obj/Debug/net9.0/B09.genruntimeconfig.cache
+/Users/hoangthanh/DSA_HKD_2026_IT001/B09/obj/Debug/net9.0/ref/B09.dll
